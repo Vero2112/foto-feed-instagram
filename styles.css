@@ -1,16 +1,48 @@
-* {border: 1px dashed red; min-height: 10px;}
+* {
+    border: 1px dashed red;
+    min-height: 10px;
+}
 
-body{ margin: 0; background: rgb(194, 192, 192);}
+body {
+    margin: 0;
+    background: rgb(194, 192, 192);
+}
 
-h1 {text-align: left;padding-left: 190px;}
+h1 {
+    text-align: left;
+    padding-left: 190px;
+}
 
-.encabezado{background: white;padding-top: 10px; padding-bottom: 10px;}
 
-span{float: right;color: rgb(177, 181, 184);padding-right: 10px;}
 
-.imagen1 {width: 500px; height: 400px; margin: 0 auto;contain: content;}
-.imagen2 {width: 500px; height: 500px; margin: 0 auto;contain: content;}
-.imagen3 {width: 500px; height: 300px; margin: 0 auto;contain: content;padding-top: 100px; padding-bottom: 100px;}
+span {
+    float: right;
+    color: rgb(177, 181, 184);
+    padding-right: 10px;
+}
+
+.imagen1 {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    contain: content;
+}
+
+.imagen2 {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    contain: content;
+}
+
+.imagen3 {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    contain: content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 
 
@@ -21,8 +53,60 @@ span{float: right;color: rgb(177, 181, 184);padding-right: 10px;}
     display: inlinr-block;
     width: 500px;
     margin-top: 50px;
-    margin-bottom: 50px;}
+    margin-bottom: 50px;
+}
 
 
-.encabezado-imagen{padding-top: 10px; padding-bottom: 10px;padding-left: 10px;}
-.pie-imagen{padding-top: 10px; padding-bottom: 10px; padding-left: 10px; }
+.post-header {
+    height: 80px;
+    width: 98%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+h3{
+    padding: 0%;
+    margin: 0%;
+    font-family: roboto;
+}
+p{
+    padding: 0%;
+    margin: 0%;
+}
+.caja{
+    width: 50px;
+    height: 50px;
+    margin: 5px; 
+}
+#caja1{
+    margin-top: 25px;
+    padding-left: 5px;
+}
+#caja2{
+    padding-left: 75%;
+    margin-top: 25px;
+}
+
+.pie-imagen {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.contenedor-iconos{
+    height: 80px;
+    width: 98%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    margin: 5px;
+    padding-left: 5px; 
+}
+#caja3{
+    padding-left: 60%;
+    margin: 5px;
+}
